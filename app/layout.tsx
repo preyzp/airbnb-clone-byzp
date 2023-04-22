@@ -12,7 +12,7 @@ import ToasterProvider from "./providers/ToasterProvider";
 import getCurrentUser from "./actions/getCurrentUser";
 import SearchModal from "./components/modals/SearchModal";
 
-export const dynamicParams = true;
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Airbnb",
