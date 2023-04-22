@@ -9,11 +9,11 @@ import { useRouter, useSearchParams } from "next/navigation";
 
 import useSearchModal from "@/app/hooks/useSearchModal";
 
+import Heading from "../Heading";
 import Modal from "./Modal";
 import Calendar from "../inputs/Calendar";
 import Counter from "../inputs/Counter";
 import CountrySelect, { CountrySelectValue } from "../inputs/CountrySelect";
-import Heading from "../Heading";
 
 enum STEPS {
   LOCATION = 0,
