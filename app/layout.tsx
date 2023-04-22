@@ -14,6 +14,8 @@ import SearchModal from "./components/modals/SearchModal";
 import Heading from "./components/Heading";
 import Container from "./components/Container";
 
+export const dynamicParams = true;
+
 export const metadata = {
   title: "Airbnb",
   description: "Airbnb Clone App",
